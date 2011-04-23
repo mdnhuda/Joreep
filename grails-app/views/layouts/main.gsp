@@ -31,5 +31,14 @@
 <div style="width:100%;background-color:darkblue;color:whitesmoke;float:left;margin:auto;">
     <div style="text-align:center;font-size:12px;padding-top:3px;padding-bottom:3px;">Developed and maintained by mdnhuda@gmail.com</div>
 </div>
+<div class="clearBoth">&nbsp;</div>
+
+<div style="width:100%;margin-left:auto;margin-right:auto;">
+
+<div style="float:left;padding-left:10px;"><img src="/images/appengine.gif" alt="Powered by Google AppEngine"></div>
+<div style="float:right;padding-right:10px;"><img src="/images/grails_logo.png" alt="Developed with Grails"></div>
+</div>
+<div class="clearBoth">&nbsp;</div>
+
 </body>
 </html>
