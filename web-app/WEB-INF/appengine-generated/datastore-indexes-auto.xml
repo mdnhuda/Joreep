@@ -1,10 +1,20 @@
-<!-- Indices written at Sat, 23 Apr 2011 16:00:36 UTC -->
+<!-- Indices written at Sat, 23 Apr 2011 16:39:12 UTC -->
 
 <datastore-indexes>
 
     <!-- Used 11 times in query history -->
     <datastore-index kind="Answer" ancestor="true" source="auto">
         <property name="answers_INTEGER_IDX" direction="asc"/>
+    </datastore-index>
+
+    <!-- Used 1 time in query history -->
+    <datastore-index kind="Question" ancestor="true" source="auto">
+        <property name="questions_INTEGER_IDX" direction="asc"/>
+    </datastore-index>
+
+    <!-- Used 1 time in query history -->
+    <datastore-index kind="Option" ancestor="true" source="auto">
+        <property name="options_INTEGER_IDX" direction="asc"/>
     </datastore-index>
 
 </datastore-indexes>

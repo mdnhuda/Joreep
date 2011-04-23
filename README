@@ -1,10 +1,22 @@
-Joreep is an Online Survey and Questionnaire building tool build using Groovy on Grails and powered by Google App Engine.
+#Joreep (http://joreepbd.appspot.com/) is an Online Survey and Questionnaire building tool which has been written using 'Groovy on Grails' and powered by 'Google App Engine'.
 
-It uses appengine (http://www.grails.org/plugin/app-engine) plugin for building and deploying.
+#It uses appengine (http://www.grails.org/plugin/app-engine) plugin for building and deploying.
+grails install-plugin app-engine
+
+#When prompted choose 'jdo' as the option for persistence.
+
+#For Running in Development Mode
 
 grails run-app // run the dev environment on port 8080
-grails -Dappengine.debug=true run-app // run the dev environment in a debug JVM on port 9999
+
+#grails -Dappengine.debug=true run-app // run the dev environment in a debug JVM on port 9999
+
+#For Deploying in Google Cloud
+
+grails set-version 1
 grails app-engine package // package app ready for deployment to target/war
-grails app-engine rollback // rollback last update
-grails app-engine logs --file=logs.txt --days=10
+$APPENGINE_HOME/bin/appcfg.sh update ./target/war
+
+
+
 
