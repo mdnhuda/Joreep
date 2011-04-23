@@ -1,0 +1,15 @@
+https://graph.facebook.com/oauth/authorize?client_id=129627547095453&redirect_uri=http://www.facebook.com/connect/login_success.html
+
+http://www.facebook.com/connect/login_success.html?code=2.Ce8frROmC7LF7texYgfm1g__.3600.1289858400-611756148|ZjCwHeBFYLVvrXJPYwVnrrczEjw
+
+https://graph.facebook.com/oauth/access_token?client_id=129627547095453&client_secret=0477f7676fd9c968ed4da41302dcdacb&code=2.Ce8frROmC7LF7texYgfm1g__.3600.1289858400-611756148|ZjCwHeBFYLVvrXJPYwVnrrczEjw&redirect_uri=http://www.facebook.com/connect/login_success.html
+
+access_token=129627547095453|2.Ce8frROmC7LF7texYgfm1g__.3600.1289858400-611756148|GV0r-T-4_YuP-xTlnEAJLfxvDPo&expires=4651
+
+https://graph.facebook.com/me?access_token=129627547095453|2.UJeV9nwUJ2OPNcbnW2f4KA__.3600.1289851200-611756148|rapw8R3BC_f2m31S-JgVUKhIMYY
+
+
+------------------
+
+http://localhost:8080/login/processLoginByFacebook?client_id=129627547095453&client_secret=0477f7676fd9c968ed4da41302dcdacb&code=2.UJeV9nwUJ2OPNcbnW2f4KA__.3600.1289851200-611756148|xNwGsqE3FjIHl6T8rfHyiTsqJQM&redirect_uri=http://www.facebook.com/connect/login_success.html
+

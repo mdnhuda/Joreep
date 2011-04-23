@@ -1,0 +1,28 @@
+<grails>
+  <resources>
+    <resource>org.grails.appengine.AppEngineReloadController</resource>
+    <resource>org.bd.survey.LoginController</resource>
+    <resource>org.bd.survey.SurveyResponseController</resource>
+    <resource>org.bd.survey.QuestionController</resource>
+    <resource>org.bd.survey.SurveyController</resource>
+    <resource>org.bd.survey.HomeController</resource>
+    <resource>org.bd.survey.MailService</resource>
+    <resource>org.bd.survey.SurveyResponse</resource>
+    <resource>org.bd.survey.Question</resource>
+    <resource>org.bd.survey.Option</resource>
+    <resource>org.bd.survey.AppUser</resource>
+    <resource>org.bd.survey.Survey</resource>
+    <resource>org.bd.survey.SurveyImage</resource>
+    <resource>org.bd.survey.Answer</resource>
+    <resource>UrlMappings</resource>
+    <resource>BootStrap</resource>
+    <resource>survey.LoginFilters</resource>
+    <resource>BuildConfig</resource>
+    <resource>Config</resource>
+    <resource>DataSource</resource>
+    <resource>resources</resource>
+  </resources>
+  <plugins>
+    <plugin>AppEngineGrailsPlugin</plugin>
+  </plugins>
+</grails>
